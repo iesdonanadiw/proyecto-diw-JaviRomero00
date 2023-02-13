@@ -1,0 +1,255 @@
+@media screen and (max-width: 1024px) {
+    /* estilos para dispositivos con ancho de pantalla menor o igual a 1024 px */
+    header .abajo {
+      display: flex;
+      flex-direction: column;
+
+    }
+    header .arriba {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    /* estilos para dispositivos con ancho de pantalla mayor a 1025 px */
+    header .arriba {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .abajo {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.arriba {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: white;
+}
+
+header .logo {
+    margin-left: 30px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    line-height: 200%;
+}
+
+header nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.abajo {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: rgba(76, 175, 80, 0.8);;
+}
+
+.abajo .izquierda {
+    margin-left: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 180%;
+    font-weight: bold;
+    width: 69px;
+    height: 30px;
+}
+/* Search Bar 6 */
+.abajo .derecha {
+    margin-right: 20px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.login {
+    font-weight: 600;
+    width: 40%;
+    font-size: 15px;
+    color:#8C30F5;
+    margin-right: 10%;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: #F1E4FF;
+    border-radius:5px;
+}
+
+.sign {
+    font-weight: 600;
+    font-size: 15px;
+    width: 40%;
+    color:white;
+    font-weight: normal;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#8C30F5;
+    border-radius:5px;
+}
+
+
+
+/* Rectangle 18 */
+.buscador .contenido{
+    position: absolute;
+    left: 72.4%;
+    right: 8.54%;
+    top: 3.78%;
+    bottom: 91.57%;
+
+    background: #E5E9F2;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 100px;
+}
+
+/* Group 4 */
+.buscador i[role="button"]{
+    position: absolute;
+    left: 89.4%;
+    right: 9.5%;
+    top: 5%;
+    bottom: 92.21%;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#333333;
+}
+
+.icon {
+    margin-right: 30px;
+    margin-top: 27px;
+    height: 60px;
+    width: 60px;
+    float: right;
+    color: #CDDC39;
+}
+
+h1{
+    margin-left: 3%;
+}
+
+hr {
+    float: left;
+    margin-top: -1%;
+    margin-left: 2%;
+    width: 20%;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.foros {
+    width: 98%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin-left: 1%;
+    margin-left: 1%;
+    border-collapse: collapse;
+}
+
+.foros th {
+    width: 14%;
+}
+
+.t1 {
+    height: 60px;
+    background-color: #4285F4;
+    color: white;
+}
+.show button {
+    height: 50%;
+    width: 18%;
+    color: white;
+    background-color: #141432;
+    border-radius: 4px;
+}
+
+.buscar form input{
+    height: 35px;
+    width: auto;
+    background: #ffffff00;
+    color: #ffffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 8px;
+}
+
+.crear {
+    height: 35px;
+    width: auto;
+    background-color: #624DE3;
+    color: white;
+    box-sizing: border-box;
+    border: 0px solid rgba(255, 255, 255);
+    border-radius: 8px;
+}
+
+.t2 {
+    height: 40px;
+    background-color: #006A66;
+}
+
+.impar {
+    height: 50px;
+    background-color: rgba(1, 160, 153, 0.75);
+}
+
+.par {
+    height: 50px;
+    background-color: #1F9254;
+}
+
+.act{
+    box-sizing: border-box;
+    background-color: #EBF9F1;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.cer{
+    box-sizing: border-box;
+    background-color: #FBE7E8;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.pag button{
+    height: 50%;
+    width: 11%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.sel {
+    background-color: #006A66;
+}

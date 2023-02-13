@@ -1,0 +1,289 @@
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .arriba {
+      display: none;
+    }
+
+    .buscador {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .abajo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .abajo .izquierda a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    nav {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    form {
+      width: 80%;
+      margin: 20px auto;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    main {
+      padding-bottom: 1px;
+    }
+    form {
+      min-width: 50%;
+    }
+  }
+
+
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.arriba {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: white;
+}
+
+header .logo {
+    margin-left: 30px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    line-height: 200%;
+}
+
+header nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.abajo {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: rgba(76, 175, 80, 0.8);;
+}
+
+.abajo .izquierda {
+    margin-left: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 180%;
+    font-weight: bold;
+    width: 69px;
+    height: 30px;
+}
+/* Search Bar 6 */
+.abajo .derecha {
+    margin-right: 20px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.login {
+    font-weight: 600;
+    width: 40%;
+    font-size: 15px;
+    color:#8C30F5;
+    margin-right: 10%;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: #F1E4FF;
+    border-radius:5px;
+}
+
+.sign {
+    font-weight: 600;
+    font-size: 15px;
+    width: 40%;
+    color:white;
+    font-weight: normal;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#8C30F5;
+    border-radius:5px;
+}
+
+
+
+/* Rectangle 18 */
+.buscador .contenido{
+    position: absolute;
+    left: 72.4%;
+    right: 8.54%;
+    top: 3.78%;
+    bottom: 91.57%;
+
+    background: #E5E9F2;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 100px;
+}
+
+/* Group 4 */
+.buscador i[role="button"]{
+    position: absolute;
+    left: 89.4%;
+    right: 9.5%;
+    top: 5%;
+    bottom: 92.21%;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#333333;
+}
+
+.icon {
+    margin-right: 30px;
+    margin-top: 27px;
+    height: 60px;
+    width: 60px;
+    float: right;
+    color: #CDDC39;
+}
+
+
+/* Google Login */
+
+.g-login {
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.g-login img{
+    align-items: center;
+    height: 30%;
+    width: 80%;
+}
+
+.f-login {
+
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    grid-column: 2/3;
+    background-color: white;
+    }
+
+.f-login img{
+    align-items: center;
+    height: 30%;
+    width: 80%;
+}
+
+.hueco {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    box-sizing: border-box;
+    border: 1px solid #D9DADC;
+}
+
+.pregunta {
+    margin-left: 35%;
+}
+
+.respuesta {
+    margin-left: 33%;
+    height: 52px;
+    width: 35%;
+    color: #6A6A6A;
+
+}
+
+.contra {
+    margin-left: 35%;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 100;
+    color: #3B5998;
+}
+
+.log {
+    font-family: 'Helvetica';
+    font-style: normal;
+    margin-left: 15%;
+    text-decoration:none;
+    font-weight: bolder;
+    font-size: 15px;
+    color:#000000;
+    padding-top:0.7%;
+    padding-bottom:0.7%;
+    padding-left: 2%;
+    padding-right:2%;
+    background-color: #1ED760;
+    border-radius:600px;
+}
+
+.cuenta {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 42%;
+}
+
+.registrate {
+    font-family: 'Helvetica';
+    font-style: normal;
+    align-items: center;
+    height: 30%;
+    width: 80%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 20px;
+    color:#000000;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left: 11%;
+    padding-right: 11%;
+    border-radius:600px;
+    border:1px solid#878787;
+}

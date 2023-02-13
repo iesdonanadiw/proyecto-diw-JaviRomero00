@@ -1,0 +1,263 @@
+@media screen and (max-width: 1024px) {
+    /* estilos para dispositivos con ancho de pantalla menor o igual a 1024 px */
+    header .abajo {
+      display: flex;
+      flex-direction: column;
+
+    }
+    header .arriba {
+      display: none;
+    }
+
+    .general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    /* estilos para dispositivos con ancho de pantalla mayor a 1025 px */
+    header .arriba {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .abajo {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.arriba {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: white;
+}
+
+header .logo {
+    margin-left: 30px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    line-height: 200%;
+}
+
+header nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.abajo {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    overflow: hidden;
+    background: rgba(76, 175, 80, 0.8);;
+}
+
+.abajo .izquierda {
+    margin-left: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 180%;
+    font-weight: bold;
+    width: 69px;
+    height: 30px;
+}
+/* Search Bar 6 */
+.abajo .derecha {
+    margin-right: 20px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.login {
+    font-weight: 600;
+    width: 40%;
+    font-size: 15px;
+    color:#8C30F5;
+    margin-right: 10%;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: #F1E4FF;
+    border-radius:5px;
+}
+
+.sign {
+    font-weight: 600;
+    font-size: 15px;
+    width: 40%;
+    color:white;
+    font-weight: normal;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#8C30F5;
+    border-radius:5px;
+}
+
+
+
+/* Rectangle 18 */
+.buscador .contenido{
+    position: absolute;
+    left: 72.4%;
+    right: 8.54%;
+    top: 3.78%;
+    bottom: 91.57%;
+
+    background: #E5E9F2;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 100px;
+}
+
+/* Group 4 */
+.buscador i[role="button"]{
+    position: absolute;
+    left: 89.4%;
+    right: 9.5%;
+    top: 5%;
+    bottom: 92.21%;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#333333;
+}
+
+.icon {
+    margin-right: 30px;
+    margin-top: 27px;
+    height: 60px;
+    width: 60px;
+    float: right;
+    color: #CDDC39;
+}
+
+footer {
+    position: relative;
+    display: block;
+    padding: 2%;
+    margin-top: 39%;
+    background: #4CAF50;
+  }
+
+  .informacion,.datos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .informacion a {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+
+
+.consulta {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #739812;
+}
+
+/* Archivo CSS */
+
+
+  h1 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .contacto form {
+    background-color: #ffffff00;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+  }
+
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+
+ .contacto input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: rgba(251, 252, 253, 0.94);;
+    border: 1px solid #ddd;
+  }
+
+  button[type="submit"] {
+    position: absolute;
+    width: 20%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: #0060FE;
+    color: #fff;
+    border: 0;
+    border-radius: 5px
+  }
+
+  .general{
+    position: absolute;
+    width: 746px;
+    height: 454px;
+    left: 275px;
+    top: 253px;
+    background: url(/src/furbodb.png);
+    box-shadow: -40px 44px 60px
+        rgba(48, 50, 52, 0.15);
+  }
+
+  .contacto {
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 454px;
+    left: -3px;
+    top: 16px;
+    background: rgba(155, 187, 89, 0.65);
+    border: 8px solid rgba(229, 229, 229, 0.54);
+    box-shadow: inset 7.7px -7.7px 7.7px rgba(149, 149, 149, 0.1), inset -7.7px 7.7px 7.7px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.7px);
+  }
+
+  fieldset{
+    border: 0px;
+    background: #0061fe00;
+  }
