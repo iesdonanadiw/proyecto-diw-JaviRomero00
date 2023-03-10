@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="foros.css">
     <script src="https://kit.fontawesome.com/be5975825b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/be5975825b.css" crossorigin="anonymous">
+    <link rel="icon"
+      type="image/ico"
+      href="media/imágenes/favicon.ico">
 </head>
 <body>
+    <audio src="media/audios/bk-sound.mp3" autoplay loop></audio>
     <header>
         <div class="arriba">
-            <div class="logo"><img alt="" src="/src/logo.png" width="85"></div>
+            <picture><img class="logo" alt="" src="media/imágenes/logotipo.svg" width="85"></picture>
             <div class="buscador">
                 <form action="#">
                     <input class="contenido" type="text" name="search">
@@ -28,15 +32,15 @@
     <header>
         <div class="abajo">
             <nav class="izquierda">
-                <a href="/index.html">Home</a>
-                <a href="/competiciones.html">Competiciones</a>
-                <a href="/jugadores.html">Jugadores</a>
-                <a href="/foros.html">Foros</a>
+                <a href="index.html">Home</a>
+                <a href="competiciones.html">Competiciones</a>
+                <a href="jugadores.html">Jugadores</a>
+                <a href="foros.html">Foros</a>
                 <a href="contacto.html">Contacto</a>
             </nav>
             <nav class="derecha">
-                <a href="/login.html" class="login" >Login</a>
-                <a href="/login.html" class="sign">Sign&nbsp;up</a>
+                <a href="login.html" class="login" >Login</a>
+                <a href="login.html" class="sign">Sign&nbsp;up</a>
             </nav>
         </div>
     </header>
@@ -129,5 +133,9 @@
             </tr>
         </table>
     </main>
+    <div>
+            <video src="media/vídeos/video-testimonio.mp4" width="500px" height="325px" controls></video>
+            <video src="media/vídeos/video-testimonio.mp4" width="500px" height="325px" controls poster="media/imágenes/portada.jpg"></video>
+    </div>
 </body>
 </html>

@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="login.css">
     <script src="https://kit.fontawesome.com/be5975825b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/be5975825b.css" crossorigin="anonymous">
+    <link rel="icon"
+      type="image/ico"
+      href="media/imágenes/favicon.ico">
 </head>
 <body>
+    <audio src="media/audios/bk-sound.mp3" autoplay loop></audio>
     <header>
         <div class="arriba">
-            <div class="logo"><img alt="" src="/src/logo.png" width="85"></div>
+            <picture><img class="logo" alt="" src="media/imágenes/logotipo.svg" width="85"></picture>
             <div class="buscador">
                 <form action="#">
                     <input class="contenido" type="text" name="search">
@@ -28,24 +32,24 @@
     <header>
         <div class="abajo">
             <nav class="izquierda">
-                <a href="/index.html">Home</a>
-                <a href="/competiciones.html">Competiciones</a>
-                <a href="/jugadores.html">Jugadores</a>
-                <a href="/foros.html">Foros</a>
+                <a href="index.html">Home</a>
+                <a href="competiciones.html">Competiciones</a>
+                <a href="jugadores.html">Jugadores</a>
+                <a href="foros.html">Foros</a>
                 <a href="contacto.html">Contacto</a>
             </nav>
             <nav class="derecha">
-                <a href="/login.html" class="login" >Login</a>
-                <a href="/login.html" class="sign">Sign&nbsp;up</a>
+                <a href="login.html" class="login" >Login</a>
+                <a href="login.html" class="sign">Sign&nbsp;up</a>
             </nav>
         </div>
     </header>
     <main>
         <div class="hueco"></div>
         <form action="#">
-                <button class="g-login"><img alt="" src="/src/google.png"></button>
+                <button class="g-login"><picture><img alt="" src="src/google.png"></picture></button>
                 <div class="hueco"></div>
-                <button class="f-login"><img alt="" src="/src/facebook.png"></button>
+                <button class="f-login"><picture><img alt="" src="src/facebook.png"></picture></button>
                 <hr>
                 <h2 class="pregunta">Email address or username</h2>
                 <input class="respuesta" type="text" placeholder="Email address or username">
